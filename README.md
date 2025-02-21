@@ -1,2 +1,3 @@
 # latihan1-web
-Tugas pertama pwmrograman web. Membuat tampilan web dengan html dan css
+Tugas pertama pemrograman web. Membuat tampilan web dengan html dan css
+web referensi: https://www.hackerrank.com/
