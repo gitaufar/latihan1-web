@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.spacer {
+    height: auto;
+    width: 0.6rem;
+}
+
+h6, a {
+    color: white;
+    font-size: 0.7rem;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.register-navbar {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    background-color: #19aa59;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-list-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0.2rem 1rem 2rem;
+}
+
+.navbar-list-left {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-list-right {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-list-right a{
+    margin-right: 24px;
+}
+
+img {
+    height: 0.75rem;
+    width: auto;
+}
+
+.list-page {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+button {
+    font-weight: 500;
+    margin-right: 12px;
+    height: 2rem;
+    font-size: .7rem;
+    padding: 6px 10px;
+}
+
+.register-button {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.start-button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.isi-container {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    line-height: 120%;
+    text-wrap: balance;
+    font-size: 5rem;
+    width: auto;
+    max-width: 56rem;
+    text-align: center;
+    width: auto;
+    max-width: 56rem;
+}
+
+p {
+    width: auto;
+    max-width: 56rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+    font-size: 1.5rem;
+}
